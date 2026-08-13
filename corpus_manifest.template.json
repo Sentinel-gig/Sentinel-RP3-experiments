@@ -1,0 +1,35 @@
+{
+  "_comment": "TEMPLATE. Replace with the real manifest. One record per corpus item. The text field is intentionally absent: the corpus is copyrighted news reporting and is not redistributed. The url lets any reader open the original and verify the gold label against it. The quote field holds a short identifying phrase, kept under fair dealing length, so that a reader can locate the relevant passage within a longer article.",
+  "corpus_version": "1.0",
+  "compiled_date": "YYYY-MM-DD",
+  "n_items": 22,
+  "items": [
+    {
+      "id": "1",
+      "outlet": "Deccan Herald",
+      "publication_date": "YYYY-MM-DD",
+      "url": "https://REPLACE-WITH-SOURCE-URL",
+      "language": "en",
+      "quote": "short identifying phrase from the article",
+      "notes": "gig relevant: delivery agent robbed"
+    },
+    {
+      "id": "13",
+      "outlet": "Amar Ujala",
+      "publication_date": "YYYY-MM-DD",
+      "url": "https://REPLACE-WITH-SOURCE-URL",
+      "language": "hi",
+      "quote": "short identifying phrase from the article",
+      "notes": "Kanpur road accident"
+    },
+    {
+      "id": "19",
+      "outlet": "Prameya English",
+      "publication_date": "YYYY-MM-DD",
+      "url": "https://REPLACE-WITH-SOURCE-URL",
+      "language": "en",
+      "quote": "short identifying phrase from the article",
+      "notes": "geographic disambiguation case: Kanpur in Odisha, not Uttar Pradesh"
+    }
+  ]
+}

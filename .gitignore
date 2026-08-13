@@ -1,0 +1,5 @@
+# results/ are committed: see results/RESULTS.md
+__pycache__/
+*.pyc
+.venv/
+corpus_reconstructed/

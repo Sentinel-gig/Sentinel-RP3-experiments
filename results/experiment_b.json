@@ -1,0 +1,158 @@
+{
+ "rule_baseline": {
+  "scripted": [
+   {
+    "id": "S1",
+    "true_type": "robbery",
+    "predicted": "robbery",
+    "correct": true
+   },
+   {
+    "id": "S2",
+    "true_type": "theft",
+    "predicted": "theft",
+    "correct": true
+   },
+   {
+    "id": "S3",
+    "true_type": "road_accident",
+    "predicted": "road_accident",
+    "correct": true
+   },
+   {
+    "id": "S4",
+    "true_type": "road_accident",
+    "predicted": "road_accident",
+    "correct": true
+   },
+   {
+    "id": "S5",
+    "true_type": "fire",
+    "predicted": "fire",
+    "correct": true
+   },
+   {
+    "id": "S6",
+    "true_type": "fraud",
+    "predicted": "fraud",
+    "correct": true
+   },
+   {
+    "id": "S7",
+    "true_type": "robbery",
+    "predicted": "robbery",
+    "correct": true
+   },
+   {
+    "id": "S8",
+    "true_type": "assault",
+    "predicted": "assault",
+    "correct": true
+   },
+   {
+    "id": "S9",
+    "true_type": "road_accident",
+    "predicted": "road_accident",
+    "correct": true
+   },
+   {
+    "id": "S10",
+    "true_type": "theft",
+    "predicted": "theft",
+    "correct": true
+   },
+   {
+    "id": "S11",
+    "true_type": "fire",
+    "predicted": "fire",
+    "correct": true
+   },
+   {
+    "id": "S12",
+    "true_type": "robbery",
+    "predicted": "robbery",
+    "correct": true
+   }
+  ],
+  "novel": [
+   {
+    "id": "N1",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N2",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N3",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N4",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N5",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N6",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N7",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N8",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N9",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N10",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N11",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   },
+   {
+    "id": "N12",
+    "predicted": "UNHANDLED",
+    "produced_output": false
+   }
+  ],
+  "scripted_correct": 12,
+  "scripted_n": 12,
+  "novel_with_output": 0,
+  "novel_n": 12
+ },
+ "good_turing_illustration": {
+  "n": 20,
+  "singletons": 3,
+  "missing_mass_estimate": 0.15,
+  "type_counts": {
+   "road_accident": 10,
+   "robbery": 7,
+   "theft": 1,
+   "fraud": 1,
+   "fire": 1
+  },
+  "note": "Computed on the incident-record type distribution of the Experiment A corpus (20 records). Illustrative only: a differently assembled corpus yields a different estimate."
+ },
+ "note": "Rule baseline is deterministic and reproduces on any machine. The LLM condition requires llm_outputs.json produced against a pinned model; see README."
+}
