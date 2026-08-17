@@ -1,0 +1,132 @@
+{
+  "model": "exact model name and version string",
+  "provider": "e.g. OpenAI / Google",
+  "run_date": "2026-08-16",
+  "conversation_policy": "fresh conversation per article, no examples",
+  "extractions": {
+    "1": {
+        "is_incident": true,
+        "type": "robbery",
+        "city": "New Delhi",
+        "location_text": "Pragati Maidan tunnel",
+        "severity": "property_only",
+        "gig_relevance": true
+    },
+    "2": {      
+        "is_incident": true,
+        "type": "robbery",
+        "city": "Bengaluru, Karnataka",
+        "location_text": "",
+        "severity": "property_only",
+        "gig_relevance": true
+    },
+    "3":
+    {
+        "is_incident": true,
+        "type": "fraud",
+        "city": "Jalandhar, Punjab",
+        "location_text": "Rupewal village, Shahkot",
+        "severity": "property_only",
+        "gig_relevance": true
+    },
+    "4":
+    {
+      "is_incident": false,
+      "type": "none",
+      "city": "",
+      "location_text": "",
+      "severity": "none",
+      "gig_relevance": false
+    },
+    "5":
+    {
+      "is_incident": true,
+      "type": "robbery",
+      "city": "Kanpur, Uttar Pradesh",
+      "location_text": "Collectorganj police station area",
+      "severity": "property_only",
+      "gig_relevance": true
+    },
+    "6":
+    {
+      "is_incident": true,
+      "type": "robbery",
+      "city": "Kanpur, Uttar Pradesh",
+      "location_text": "near City Club, Raipurwa, GT Road",
+      "severity": "injury",
+      "gig_relevance": false
+    },
+    "7":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur Dehat, Uttar Pradesh",
+      "location_text": "बिल्हौर-रसूलाबाद मार्ग पर असालतगंज स्थित एक डिग्री कॉलेज के पास (Near a degree college in Asalatganj on Bilhaur-Rasulabad Road)",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "8":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur, Uttar Pradesh",
+      "location_text": "Kanpur-Sagar National Highway near Patara town, Ghatampur",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "9":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur, Uttar Pradesh",
+      "location_text": "Blue World Tiraha, Bithoor",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "10a":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur, Uttar Pradesh",
+      "location_text": "Kanpur-Sagar Highway, Bidhnu",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "10b":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur, Uttar Pradesh",
+      "location_text": "Kanpur-Sagar Highway, Bidhnu",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "11":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur",
+      "location_text": "Koria Mor, Sajeti police station area, Ghatampur",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "12":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kannauj, Uttar Pradesh",
+      "location_text": "Near Siddiqui Petrol Pump, Gursahaiganj-Samdhan Road, Samdhan",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "13":
+    {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Chitrakoot, Uttar Pradesh",
+      "location_text": "Shivrampur puliya, Sadar Kotwali",
+      "severity": "fatal",
+      "gig_relevance": false
+    }
+  }
+}

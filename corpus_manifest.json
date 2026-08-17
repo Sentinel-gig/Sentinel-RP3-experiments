@@ -1,0 +1,136 @@
+{
+  "_comment": "Experiment A corpus manifest, rebuilt August 2026. Full article text is NOT redistributed: it is copyrighted news reporting. Each record carries the outlet, publication date and source URL so that any reader can open the original and verify the corresponding gold annotation. The 'excerpt_basis' field records which part of the article the annotation was made from.",
+  "corpus_version": "2.0",
+  "compiled_date": "2026-08-16",
+  "supersedes": "corpus 1.0, used in the first version of the manuscript; those materials were not archived and the corpus was rebuilt from verifiable sources for this revision",
+  "n_items": 13,
+  "language_counts": {"hi": 9, "en": 4},
+  "items": [
+    {
+      "id": "1",
+      "outlet": "Deccan Herald",
+      "publication_date": "2023-06-27",
+      "url": "https://www.deccanherald.com/india/5-held-so-far-in-delhis-pragati-maidan-tunnel-loot-case-1231606.html",
+      "language": "en",
+      "excerpt_basis": "opening paragraphs describing the gunpoint robbery of a delivery agent inside the Pragati Maidan tunnel",
+      "notes": "gig relevant: delivery agent intercepted while transporting cash"
+    },
+    {
+      "id": "2",
+      "outlet": "Deccan Herald",
+      "publication_date": "2020-05-31",
+      "url": "https://www.deccanherald.com/city/bengaluru-crime/courier-robbed-of-package-he-was-to-deliver-to-customer-844094.html",
+      "language": "en",
+      "excerpt_basis": "full report of a delivery worker waylaid and assaulted in Nagarabhavi",
+      "notes": "gig relevant: courier assaulted and package snatched; landmark location '9th Block, BDA Layout'"
+    },
+    {
+      "id": "3",
+      "outlet": "The Tribune",
+      "publication_date": "2026-01-01",
+      "url": "https://www.tribuneindia.com/news/jalandhar/agent-held-for-staging-fake-robbery",
+      "language": "en",
+      "excerpt_basis": "full report that a delivery agent staged a robbery complaint to cover theft of company money",
+      "notes": "HARD CASE: reports a robbery complaint that was fabricated. Tests whether the extractor records an incident that did not occur. Publication date approximate; verify against the page."
+    },
+    {
+      "id": "4",
+      "outlet": "Deccan Chronicle",
+      "publication_date": "2020-02-11",
+      "url": "https://www.pressreader.com/india/deccan-chronicle/20200211/281676846912429",
+      "language": "en",
+      "excerpt_basis": "report of a food delivery executive lured to a false address and robbed in Jagadgirigutta",
+      "notes": "gig relevant: delivery worker lured by a decoy order"
+    },
+    {
+      "id": "5",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-05-11",
+      "url": "https://www.amarujala.com/video/uttar-pradesh/kanpur/video-two-fake-policemen-arrested-for-robbing-newspaper-agent-of-1-lakh-in-kanpur-2026-05-11",
+      "language": "hi",
+      "excerpt_basis": "report of two men posing as police officers robbing a newspaper agent of one lakh rupees",
+      "notes": "gig relevant: distribution agent targeted; impersonation rather than force"
+    },
+    {
+      "id": "6",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-08-15",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/kanpur-contractor-held-hostage-in-an-auto-rickshaw-and-robbed-struck-with-a-sickle-and-dumped-on-gt-road-2026-08-15",
+      "language": "hi",
+      "excerpt_basis": "report of a contractor held hostage in an auto rickshaw, robbed, struck with a sickle and left on GT Road",
+      "notes": "violent robbery with injury; landmark location 'GT Road'"
+    },
+    {
+      "id": "7",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-06-29",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/motorcyclist-dies-after-being-hit-by-a-speeding-vehicle-kanpur-news-c-220-1-akb1007-144969-2026-06-29",
+      "language": "hi",
+      "excerpt_basis": "report of a motorcyclist killed by a speeding vehicle in the Bilhaur area",
+      "notes": "road accident, fatal"
+    },
+    {
+      "id": "8",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-07-24",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/kanpur-accident-on-kanpur-sagar-highway-youth-died-after-being-hit-by-a-dumper-driver-taken-into-custody-2026-07-24",
+      "language": "hi",
+      "excerpt_basis": "report of a dumper striking a motorcyclist near Patara on the Kanpur to Sagar national highway",
+      "notes": "road accident, fatal; corridor location on a named national highway"
+    },
+    {
+      "id": "9",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-07-25",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/kanpur-dumper-hits-motorcycle-youth-died-and-companion-injured-police-searching-for-the-absconding-driver-2026-07-25",
+      "language": "hi",
+      "excerpt_basis": "report of a dumper striking a motorcycle near the Blue World tiraha in the Bithoor police station area",
+      "notes": "road accident, one fatality and one injury; landmark plus police station anchor"
+    },
+    {
+      "id": "10a",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-08-04",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/two-killed-in-separate-road-accidents-on-kanpur-sagar-highway-2026-08-04",
+      "language": "hi",
+      "excerpt_basis": "report of a fatal car crash near hanha on the Kanpur to Sagar highway in the Bidhnu police station area",
+      "notes": "HARD CASE: a single article reporting TWO distinct incidents. Tests whether the extractor emits one record or two."
+    },
+    {
+      "id": "10b",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-08-04",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/two-killed-in-separate-road-accidents-on-kanpur-sagar-highway-2026-08-04",
+      "language": "hi",
+      "excerpt_basis": "report of a man dying in tractor trolley collison on the Kanpur to Sagar highway in the Bidhnu police station area",
+      "notes": "HARD CASE: a single article reporting TWO distinct incidents. Tests whether the extractor emits one record or two."
+    },
+    {
+      "id": "11",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-05-22",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/kanpur-truck-violently-collides-with-motorcycle-two-youths-die-on-the-spot-search-for-absconding-driver-2026-05-22",
+      "language": "hi",
+      "excerpt_basis": "report of a truck striking a motorcycle in the Ghatampur police station area, killing two",
+      "notes": "road accident, two fatalities"
+    },
+    {
+      "id": "12",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-08-15",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/kannauj-dumper-runs-over-bike-rider-30-year-old-youth-dies-on-the-spot-2026-08-15",
+      "language": "hi",
+      "excerpt_basis": "report of a dumper running over a motorcyclist near a petrol pump on the Gursahaiganj to Samdhan road",
+      "notes": "GEOGRAPHIC CASE: published under the Kanpur section of the outlet but the incident is in Kannauj district. Tests whether the extractor reports the incident location or the publishing desk."
+    },
+    {
+      "id": "13",
+      "outlet": "Amar Ujala",
+      "publication_date": "2026-08-14",
+      "url": "https://www.amarujala.com/uttar-pradesh/kanpur/chitrakoot-biker-killed-after-being-hit-by-truck-in-shiv-rampur-friend-injured-2026-08-14",
+      "language": "hi",
+      "excerpt_basis": "report of a truck striking a motorcycle at Shivrampur in the Sadar Kotwali area, killing one and injuring another",
+      "notes": "GEOGRAPHIC CASE: published under the Kanpur section but the incident is in Chitrakoot. Same test as item 12."
+    }
+  ]
+}

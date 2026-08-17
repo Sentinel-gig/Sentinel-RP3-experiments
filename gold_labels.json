@@ -1,0 +1,118 @@
+{
+  "annotator": "Arav Misra",
+  "annotation_date": "2026-08-17",
+  "labels": {
+    "1": {
+      "is_incident": true,
+      "type": "robbery",
+      "city": "Delhi",
+      "location_text": "Pragati Maidan tunnel",
+      "severity": "property_only",
+      "gig_relevance": true
+    },
+    "2": {
+      "is_incident": true,
+      "type": "robbery",
+      "city": "Bengaluru",
+      "location_text": "Nagarabhavi, 9th Block BDA Layout",
+      "severity": "property_only",
+      "gig_relevance": true
+    },
+    "3": {
+      "is_incident": false,
+      "type": "fraud",
+      "city": "Jalandhar",
+      "location_text": "Shahkot SDM Court flyover",
+      "severity": "none",
+      "gig_relevance": false
+    },
+    "4": {
+      "is_incident": true,
+      "type": "robbery",
+      "city": "Hyderabad",
+      "location_text": "Jeedimetla",
+      "severity": "property_only",
+      "gig_relevance": true
+    },
+    "5": {
+      "is_incident": true,
+      "type": "fraud",
+      "city": "Kanpur",
+      "location_text": "Kanpur Nagar",
+      "severity": "property_only",
+      "gig_relevance": false
+    },
+    "6": {
+      "is_incident": true,
+      "type": "robbery",
+      "city": "Kanpur",
+      "location_text": "GT Road",
+      "severity": "injury",
+      "gig_relevance": true
+    },
+    "7": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur",
+      "location_text": "Rasoolabad",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "8": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur",
+      "location_text": "Kanpur-Sagar highway, near Patara",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "9": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur",
+      "location_text": "Blue World tiraha, Bithoor area",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "10a": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur",
+      "location_text": "Hanha, Kanpur-Sagar highway, Bidhnu area",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "10b": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur",
+      "location_text": "Madhav Bagh market, Kanpur-Sagar highway, Bidhnu area",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "11": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kanpur",
+      "location_text": "Ghatampur",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "12": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Kannauj",
+      "location_text": "Samdhan Nagar",
+      "severity": "fatal",
+      "gig_relevance": false
+    },
+    "13": {
+      "is_incident": true,
+      "type": "road_accident",
+      "city": "Chitrakoot",
+      "location_text": "Shivrampur, Sadar Kotwali area",
+      "severity": "fatal",
+      "gig_relevance": false
+    }
+  }
+}
