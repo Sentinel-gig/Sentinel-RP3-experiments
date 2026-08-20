@@ -1,6 +1,6 @@
 {
-  "model": "exact model name and version string",
-  "provider": "e.g. OpenAI / Google",
+  "model": "Gemini 3.7 flash used for this study",
+  "provider": "Google",
   "run_date": "2026-08-16",
   "conversation_policy": "fresh conversation per article, no examples",
   "extractions": {
